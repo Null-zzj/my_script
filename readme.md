@@ -1,1 +1,1 @@
-sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+sh -c "$(wget https://github.com/Null-zzj/my_script/raw/main/install.sh -O -)"
