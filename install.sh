@@ -1,4 +1,4 @@
-#!bin/sh
+#!/bin/sh
 
 # 设置目标目录
 target_directory="$HOME/.my_script"
