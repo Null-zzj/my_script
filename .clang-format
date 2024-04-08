@@ -1,7 +1,7 @@
 ---
 Language:        Cpp
 # BasedOnStyle:  Microsoft
-AccessModifierOffset: -2
+AccessModifierOffset: -4
 AlignAfterOpenBracket: Align
 AlignArrayOfStructures: None
 AlignConsecutiveAssignments:
@@ -51,17 +51,17 @@ AttributeMacros:
 BinPackArguments: true
 BinPackParameters: true
 BitFieldColonSpacing: Both
+
 BraceWrapping:
-  AfterCaseLabel:  false
-  AfterClass:      true
+  AfterCaseLabel: true
+  AfterClass: false
   AfterControlStatement: Always
-  AfterEnum:       true
+  AfterUnion: false
   AfterExternBlock: true
-  AfterFunction:   true
-  AfterNamespace:  true
+  AfterFunction: true
+  AfterNamespace:  false
   AfterObjCDeclaration: true
-  AfterStruct:     true
-  AfterUnion:      false
+  AfterStruct: false
   BeforeCatch:     true
   BeforeElse:      true
   BeforeLambdaBody: false
@@ -76,15 +76,7 @@ BreakArrays:     true
 BreakBeforeBinaryOperators: None
 BreakBeforeConceptDeclarations: Always
 BreakBeforeBraces: Custom
-BraceWrapping:
-    AfterClass: false
-    AfterCaseLabel: true
-    AfterClass: false
-    AfterStruct: false
-    AfterUnion: false
-    AfterControlStatement: Always
-    AfterFunction: false
-    BeforeElse: true
+
 
 BreakBeforeInlineASMColon: OnlyMultiline
 BreakBeforeTernaryOperators: true
@@ -180,7 +172,7 @@ RequiresClausePosition: OwnLine
 RequiresExpressionIndentation: OuterScope
 SeparateDefinitionBlocks: Leave
 ShortNamespaceLines: 1
-SortIncludes:    CaseSensitive
+SortIncludes:    Never
 SortJavaStaticImport: Before
 SortUsingDeclarations: LexicographicNumeric
 SpaceAfterCStyleCast: false
@@ -214,7 +206,7 @@ SpacesInContainerLiterals: true
 SpacesInCStyleCastParentheses: false
 SpacesInLineCommentPrefix:
   Minimum:         1
-  Maximum:         -1
+  Maximum:         1
 SpacesInParentheses: false
 SpacesInSquareBrackets: false
 Standard:        Latest

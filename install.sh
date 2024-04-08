@@ -52,9 +52,9 @@ set_clangformat(){
 }
 
 # 安装命令， 将命令添加到
-install_script(){
+# install_script(){
 
-}
+# }
 
 
 
