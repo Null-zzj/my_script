@@ -8,8 +8,8 @@ AlignConsecutiveAssignments:
   Enabled:         false
   AcrossEmptyLines: false
   AcrossComments:  false
-  AlignCompound:   false
-  PadOperators:    true
+  AlignCompound:   true
+  PadOperators:    false
 AlignConsecutiveBitFields:
   Enabled:         false
   AcrossEmptyLines: false
@@ -18,7 +18,7 @@ AlignConsecutiveBitFields:
   PadOperators:    false
 AlignConsecutiveDeclarations:
   Enabled:         false
-  AcrossEmptyLines: false
+  AcrossEmptyLines: true
   AcrossComments:  false
   AlignCompound:   false
   PadOperators:    false
