@@ -1,0 +1,19 @@
+set_proxy()
+{
+    source $HOME/.config/my-profile/config/wsl_proxy.conf
+}
+
+
+set_script()
+{
+    source $HOME/.config/my-profile/config/script.conf
+}
+
+set_theme()
+{
+    source $HOME/.config/my-profile/config/bash-theme.conf
+}
+
+set_proxy
+set_script
+set_theme
