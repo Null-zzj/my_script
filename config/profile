@@ -1,8 +1,9 @@
 set_proxy()
 {
-    source $HOME/.config/my-profile/config/wsl_proxy.conf
+    if grep -qEi "(Microsoft|WSL)" /proc/version; then
+        source $HOME/.config/my-profile/config/wsl_proxy.conf
+    fi
 }
-
 
 set_script()
 {
@@ -17,3 +18,5 @@ set_theme()
 set_proxy
 set_script
 set_theme
+
+
