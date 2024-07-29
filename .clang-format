@@ -1,6 +1,6 @@
 ---
 Language:        Cpp
-
+BasedOnStyle: Google
 AccessModifierOffset: -4
 AlignAfterOpenBracket: Align
 AlignArrayOfStructures: None
@@ -23,30 +23,11 @@ AlwaysBreakAfterDefinitionReturnType: None
 AlwaysBreakAfterReturnType: None
 AlwaysBreakBeforeMultilineStrings: false
 AlwaysBreakTemplateDeclarations: Yes
-AttributeMacros:
-  - __capability
 BinPackArguments: true
 BinPackParameters: true
 BitFieldColonSpacing: Both
 
-BraceWrapping:
-  AfterCaseLabel: true
-  AfterClass: false
-  AfterControlStatement: MultiLine
-  AfterUnion: false
-  AfterExternBlock: true
-  AfterFunction: false
-  AfterNamespace:  false
-  AfterObjCDeclaration: true
-  AfterStruct: false
-  BeforeCatch:     true
-  BeforeElse:      false
-  BeforeLambdaBody: false
-  BeforeWhile:     false
-  IndentBraces:    false
-  SplitEmptyFunction: true
-  SplitEmptyRecord: true
-  SplitEmptyNamespace: true
+
   
 BreakAfterAttributes: Never
 BreakAfterJavaFieldAnnotations: false
