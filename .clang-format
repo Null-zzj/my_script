@@ -7,7 +7,7 @@ AccessModifierOffset: -4
 # 缩进
 IndentWidth:     4
 # 函数调用的参数要么都在同一行，要么各一行。
-BinPackArguments: fasle
+BinPackArguments: false
 # 只合并在类中定义的函数。与内联相同，除了它不意味着空:即顶层空函数也不会合并。
 AllowShortFunctionsOnASingleLine: InlineOnly
 #如果为false，函数声明或函数定义的形参要么都在同一行，要么各一行。
