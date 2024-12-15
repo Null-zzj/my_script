@@ -1,26 +1,15 @@
 ---
-Language:        Cpp
+# 基于Google的代码风格
 BasedOnStyle: Google
 
-# 访问修饰符的缩进偏移
-AccessModifierOffset: -4
-# 缩进
-IndentWidth:     4
-# 函数调用的参数要么都在同一行，要么各一行。
-BinPackArguments: false
-# 只合并在类中定义的函数。与内联相同，除了它不意味着空:即顶层空函数也不会合并。
-AllowShortFunctionsOnASingleLine: InlineOnly
-#如果为false，函数声明或函数定义的形参要么都在同一行，要么各一行。
-#true:
-#void f(int aaaaaaaaaaaaaaaaaaaa, int aaaaaaaaaaaaaaaaaaaa,
-#       int aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa) {}
-#false:
-#void f(int aaaaaaaaaaaaaaaaaaaa,
-#       int aaaaaaaaaaaaaaaaaaaa,
-#       int aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa) {}
-BinPackParameters: true
-Standard:        Latest
-# 将tab切换为空格
-UseTab:          Never
-...
+# 缩进宽度设置为4
+IndentWidth: 4
 
+# 访问修饰符缩进设置为-4
+AccessModifierOffset: -4
+
+# 关闭头文件排序
+SortIncludes: Never
+IncludeBlocks:   Preserve
+TabWidth: 4
+UseTab: Never
